@@ -1,0 +1,13 @@
+.logo { 
+	font-family: $ff-logo;
+  margin-right: 93px;
+   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: $accent-color;
+  text-decoration: none;
+  .page-header__text {
+	color: #000000;
+  }
+}

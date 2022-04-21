@@ -1,0 +1,26 @@
+.modal__button-colose{ 
+	top: 8px;
+	right: 8px;
+position: absolute;
+	width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: var(--color-text);
+border: 1px solid rgba(0, 0, 0, 0.1);
+cursor: pointer;
+&:focus .modal__button-icon,
+&:hover .modal__button-icon {
+	  fill: $accent-color;
+	  
+  }
+}
+
+.modal__button-icon {
+	position: absolute;
+	width: 18px;
+height: 18px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+@include transition(fill)
+}

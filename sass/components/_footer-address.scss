@@ -1,0 +1,43 @@
+.footer__address {
+	margin-top: 20px;
+ font-style: normal;
+}
+
+.address__list {
+	list-style: none;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+  }
+
+    .address__item {
+	margin-bottom: 9px;
+	&:last-child {
+		margin-bottom: 0;
+	  }
+  }
+
+  .address__map {
+	color: $color-text;
+	@include transition(color);
+	
+  &:hover,
+  &:focus {
+	color: $accent-color;
+  }
+}
+
+
+.address__contact {
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+ @include transition(color);
+   &:hover,
+   &:focus {
+	 color: $accent-color;
+   }
+  }
+
+  .footer__info{
+	margin-right: 70px;
+	}

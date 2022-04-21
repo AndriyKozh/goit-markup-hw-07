@@ -1,0 +1,25 @@
+.footer__form{
+	margin-left: auto;
+	}
+
+	.js-speaker-form{
+		display: flex;
+	}
+
+	.form__email{
+		display: flex;
+		width: 358px;
+		height: 50px;
+		background-color: #2f303a;
+		border: 1px solid #757575 ;
+		margin-right: 12px;
+		color: $color-text;
+		@include transition(border);
+	border-radius: 4px;
+		outline: 0px;
+		&:hover,
+		&:focus{
+			border: 1px solid $accent-color;
+		}
+	}
+
