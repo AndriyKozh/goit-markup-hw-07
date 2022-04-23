@@ -1,4 +1,4 @@
-.contakt {
+.contact {
 			align-items: center;
 			margin-top: 0;
 			margin-bottom: 0;
@@ -9,13 +9,13 @@
 			letter-spacing: 0.02em;
 			list-style: none;
 			margin-left: auto;
-	.contakt__item{
+	.contact__item{
 			margin-right: 30px;
 		&:last-child {
 				margin-right: 0px;
 			}
 	}
-   	.contakt__link {
+   	.contact__link {
 			fill: $color-fone;
 			color: $color-fone;
 			text-decoration: none;
@@ -28,7 +28,7 @@
 		&:focus {
 			color: $accent-color;
 			}
-	.contakt__icon{
+	.contact__icon{
 			margin-right: 10px;
 			@include transition(fill);
 			}

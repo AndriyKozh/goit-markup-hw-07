@@ -1,10 +1,10 @@
-.team__social-block{
+.social__block{
 	@include img__center();
 	padding: 0;
 
 }
 
-.team__social-item{
+.social__item{
 	margin-right: 10px;
 	list-style: none;
 	&:last-child{
@@ -12,7 +12,8 @@
 	}
 	}
 
-	.team__social-link{
+	.social__link{
+		@include img__center();
 		padding: 0;
 		border: 0;
 		width: 44px;
@@ -29,13 +30,13 @@
 	&:focus{
 		background-color: $accent-color;
 	}
-	&:hover .team__social-icon,
-	&:focus .team__social-icon{
+	&:hover .social__icon,
+	&:focus .social__icon{
 		fill: $color-text
 	}
 }
 
-	.team__social-icon{
+	.social__icon{
 		fill: #AFB1B8;
 		padding: auto;	
 		@include transition(fill)

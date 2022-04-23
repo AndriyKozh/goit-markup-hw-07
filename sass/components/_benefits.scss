@@ -1,6 +1,7 @@
-.benefits__content {
+.benefits {
 	display: flex;
   .benefits__block{
+	@include img__center();
 	  width: 270px;
 	  height: 120px;
 	  margin: auto;
@@ -8,13 +9,6 @@
 	  border-radius: 4px;
 	  background-color: $color-text-button
   }
-}
-
-// .benefits__icon{
-// 	display: block;
-//    }
-.img__center{
-@include img__center();
 }
 
 .benefits__item {

@@ -8,12 +8,12 @@
 	margin-bottom: 20px;
 	}
 
-	.social__list{
+	.soc{
 		display: flex;
 		list-style: none;
 		}	
 	
-		.social__link{
+		.soc__link{
 			@include img__center();
 			width: 44px;
 			height: 44px;
@@ -27,13 +27,13 @@
 	
 		}
 
-		.social__item{
+		.soc__item{
 			margin-right: 10px;
 			&:last-child{
 				margin-right: 0;
 			}
 		}
 
-		.social__icon{
+		.soc__icon{
 			fill: $color-text-button;
 				}

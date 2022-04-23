@@ -1,4 +1,4 @@
-.modal__button-colose{ 
+.modal__close{ 
 	top: 8px;
 	right: 8px;
 position: absolute;
@@ -8,14 +8,14 @@ border-radius: 50%;
 background-color: var(--color-text);
 border: 1px solid rgba(0, 0, 0, 0.1);
 cursor: pointer;
-&:focus .modal__button-icon,
-&:hover .modal__button-icon {
+&:focus .modal__icon-close,
+&:hover .modal__icon-close {
 	  fill: $accent-color;
 	  
   }
 }
 
-.modal__button-icon {
+.modal__icon-close {
 	position: absolute;
 	width: 18px;
 height: 18px;

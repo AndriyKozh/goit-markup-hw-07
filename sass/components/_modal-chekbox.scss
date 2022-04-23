@@ -1,4 +1,4 @@
-.modal__label-check{
+.modal__check{
 	@include img__center;
 			font-size: 14px;
 		line-height: 24px;
@@ -7,7 +7,7 @@
 		color: $color-fone;
 			}
 
-.modal__input-checkbox{
+.modal__checkbox{
 	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -27,7 +27,7 @@
 	}
 
 
-	.modal__checkbox-link{
+	.modal__link{
 		font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;

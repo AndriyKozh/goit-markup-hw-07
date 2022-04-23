@@ -2,10 +2,11 @@
 	display: flex;
 	 align-items: center;
    .site-nav {
+	display: flex;
+	align-items: center;
   margin-top: 0;
   margin-bottom: 0;
- 
-  font-weight: 500;
+   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -15,13 +16,12 @@
 }
 
 .site-nav__item {
-	
 	margin-right: 50px;
 	&:last-child {
 		margin-right: 0;
 	  }
 	  .site-nav__link{
-		&.active{
+		&.site-nav__link--active{
 			color: $accent-color;
 		}
 position: relative;

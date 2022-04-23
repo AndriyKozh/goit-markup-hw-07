@@ -1,8 +1,9 @@
-.team {
+.section--team {
 	background-color: $color-text-button;
   }
 
-  .team__content {
+  .team {
+	  @include img__center();
 	padding-left: 0;
 	display: flex;
 	.team__item {
